@@ -44,7 +44,6 @@
 }
 
 .container-menu {
-    padding-top: 1%;
     padding-bottom: -1%;
 }
 
@@ -55,6 +54,8 @@
  }
 
 .menu-name {
+    font-family: "Verdana";
+    font-style: bold;
     font-size: 150%;
     float: left;
     padding-left: 3%;
@@ -82,6 +83,7 @@
     float: right;
     background-color: lightgrey;
     border-radius: 30px;
+    box-shadow: 2px 2px 2px;
 }
 
 .container {
