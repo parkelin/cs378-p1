@@ -1,3 +1,7 @@
+[class^='col'] {
+    /* background-color: gray; */
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -10,69 +14,54 @@
     padding: 5%;
 }
 
-.row {
-    display: block;
-    justify-content: center;
-    text-align: center;
+.col-8 {
+    padding-left: 5%;
 }
 
 #slogan {
     padding-top: 10%;
-    color: pink;
+    color: darkgreen;
     font-family: cursive;
     font-size: 125%;
 }
 
 #slogan2 {
-    padding-bottom: 15%;
+    padding-bottom: 20%;
     color: black;
     font-size: 150%;
     justify-content: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 0;
 }
 
 /* menu pic */
 .img-fluid {
-    float: left;
-    width: 120%;
+    max-width: 115%;
     border-radius: 15%;
 }
 
-.col-12 {
-    padding-left: 5%;
-}
-
-.container-menu {
-    padding-bottom: -1%;
-}
-
 .menu-item {
-    margin: 5%;
-    padding: 3%;
-    padding-top: 5%;
+    /* margin: 2%; */
+    padding-bottom: 4%;
+    padding-right: 3%;
+    padding-left: 3%;
  }
 
 .menu-name {
-    font-family: "Verdana";
-    font-style: bold;
-    font-size: 150%;
-    float: left;
-    padding-left: 3%;
-    line-height: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 120%;
 }
 
 .menu-desc {
+    padding-top: -2%;
     font-size: 15px;
-    padding-top: 30px;
-    padding-left: 35%;
     text-align: left;
 }
 
 .menu-price {
     font-size: 100%;
     float: left;
-    padding-left: 3%;
 }
 
 .btn {
@@ -84,10 +73,4 @@
     background-color: lightgrey;
     border-radius: 30px;
     box-shadow: 2px 2px 2px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
